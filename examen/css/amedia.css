@@ -1,0 +1,86 @@
+@media screen and (max-width: 400px)
+{
+    .footerBlock{
+        max-width: auto;
+    }
+     
+    .tovarBlock{
+        justify-content: center;
+        margin-left: 25%;
+    }
+
+    .navPanel, .footerBlock {
+        min-width: 450px;
+    }
+}
+
+@media screen and (max-width: 575px)
+{
+    #container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .navPanel {
+        min-height: 160px;
+        
+    }
+    .marshrut, .headText{
+        padding-left: 15px;
+    }
+
+    .numerikPage{
+        padding-top: 15px;
+    }
+
+    .footerBlock a{
+        font-size: 16px;
+    }
+    .nextPage, .comeBack {
+       margin-right: 17px;
+       padding-top: 15px;
+    }
+    
+    .tovarBlock{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .footerBlock {
+        height: 80px;
+    }
+
+    .navPanel {
+        min-height: 150px;
+        justify-content: center;
+    }
+
+    .checkButton {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .comeBack, .numerikPage, .nextPage{
+        margin-top: 25px;
+    }
+
+    .verticalLine {
+        display: none;
+    }
+
+    .colorName {
+        margin: 10px;
+    }
+
+    .sortPrice {
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .navPanel {
+        min-height: 110px;
+        justify-content: center;
+    }
+}
